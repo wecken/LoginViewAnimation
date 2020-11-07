@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LoginViewAnimation
 //
-//  Created by Hiroyuki Miura on 2020/11/07.
+//  Created by Wecken on 2020/11/07.
 //
 
 import UIKit

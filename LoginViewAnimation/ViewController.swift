@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  LoginViewAnimation
 //
-//  Created by Hiroyuki Miura on 2020/11/07.
+//  Created by Wecken on 2020/11/07.
 //
 
 import UIKit
@@ -31,8 +31,7 @@ class ViewController: UIViewController {
             resetButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -16),
             resetButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
-    
-        
+            
         setupLoginView()
         setupStackView()
         prepareForAnimation()
@@ -73,8 +72,6 @@ class ViewController: UIViewController {
         googleButton.backgroundColor = UIColor.init(red: 0.129, green: 0.477, blue: 1, alpha: 1)
         googleButton.layer.cornerRadius = googleButton.intrinsicContentSize.height / 2
         googleButton.layer.cornerCurve = .continuous
-
-
     }
     
     func setupStackView() {
@@ -98,7 +95,6 @@ class ViewController: UIViewController {
         imageView.layer.setAffineTransform(CGAffineTransform.init(scaleX: 0.8, y: 0.8))
         appleButton.layer.setAffineTransform(CGAffineTransform.init(translationX: 0, y: 30))
         googleButton.layer.setAffineTransform(CGAffineTransform .init(translationX: 0, y: 60))
-        
     }
     
     func startAnimate() {
